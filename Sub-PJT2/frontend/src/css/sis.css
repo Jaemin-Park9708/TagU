@@ -1,0 +1,7 @@
+.Container-Sis {
+  width: 100vw;
+}
+
+.Container-Sis-withChat {
+  width: calc(100vw - 25rem);
+}

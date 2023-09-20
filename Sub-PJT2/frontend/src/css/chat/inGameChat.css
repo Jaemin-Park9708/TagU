@@ -1,0 +1,37 @@
+.inGameChatContainerShown {
+  width: 24rem;
+  transition: all 1s;
+}
+.inGameChatContainerHidden {
+  width: 4rem;
+  transition: all 1s;
+}
+
+
+.chatBoxShown {
+  /* border: solid green; */
+  transition: all 0.7s;
+}
+.chatBoxHidden {
+  /* border: solid green; */
+  margin-left: 50rem !important;
+  transition: all 1s;
+}
+
+.chatRoom-main-input > input {
+  /* border: solid green; */
+  width: 75%;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  resize: none;
+  padding: 0.7rem;
+}
+
+.chatRoom-main-input > input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 5px #ff5664;
+}
+

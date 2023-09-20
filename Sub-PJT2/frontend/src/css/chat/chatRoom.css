@@ -1,0 +1,56 @@
+.couterpart-exceptImg > div {
+  /* border: solid black; */
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.chatRoom-main-chats::-webkit-scrollbar,
+.chatRoom-main-input > textarea::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.chatRoom-main-chats::-webkit-scrollbar-thumb,
+.chatRoom-main-input > textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(208, 208, 208);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+.chatRoom-main-chats::-webkit-scrollbar-track,
+.chatRoom-main-input > textarea::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px transparent;
+}
+
+.chatRoom-main-input > textarea {
+  width: 85%;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  resize: none;
+  padding: 0.7rem;
+}
+.chatRoom-main-input > textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px 5px #ff5664;
+}
+.button-outer {
+  /* border: solid black; */
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-send:hover {
+  cursor: pointer;
+  border: solid 0.1px pink;
+}
+.button-send:active {
+  background-color: #ff5563;
+  width: 95%;
+  height: 95%;
+}

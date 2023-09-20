@@ -1,0 +1,9 @@
+.parent_1 {
+  width: 400px;
+  border: 1px solid #000;
+}
+
+.parent_1 .child_1 {
+  width: 50%;
+  background-color: pink;
+}

@@ -1,0 +1,9 @@
+.Container-Son {
+  /* border: solid black; */
+  width: 100vw;
+}
+
+.Container-Son-withChat {
+  /* border: solid white; */
+  width: calc(100vw - 25rem);
+}
